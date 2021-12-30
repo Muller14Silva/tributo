@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	background-color: #696969;
+	width: 100%;
+	height: 50px;
+}
+.esquerdo{
+	height: 890px;
+	width: 60%;
+	background-color: #AADDAA;
+}
+.direito{
+	height: 890px;
+	width: 40%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+section {
+	display: flex;
+}
+.direito img {
+
+}
