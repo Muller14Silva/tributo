@@ -1,9 +1,12 @@
 body{
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
     height: 100%;
 }
-
+.menu {
+		
+		height: 70px;
+}
 .esquerdo{
 	float: left;
 	width: 60%;
@@ -11,9 +14,7 @@ body{
 }
 .direito{
 	float: right;
-	width: 40%;
-
-	
+	width: 40%;	
 }
 section {
 	width: 100%;
@@ -29,25 +30,30 @@ section {
 	width: 100%;
 	
 }
+
 .menuresponsivo{
 	height: 40px;
 	width: 100%;
 	margin-top: 20px;
 	display: none;
+	background-color:#696969;
 }
 .menuresponsivo img{
 	float: left;
 	margin-left: 20px;
+
+}
+.menu ul {
+	margin-top: 20px;
+
 }
 .menu a {
 color:black;
 padding: 20px;
 display: block;
 text-decoration: none;
-font-size: 20px;
+font-size: 25px;
 margin: 20px;
-margin-left: 50px;
-
 }
 .menu li {
 list-style: none;
@@ -98,9 +104,6 @@ h3{
 	float: right;
     border-radius: 20px;
     display: flex;
-	
-
-
 }
 .social a {
 	width: 40px;
@@ -113,7 +116,8 @@ margin-left: 40px;
 .social img{
 	border-radius: 20px;
 }
-@media only screen and (min-width: 100px) and (max-width: 1340px){
+
+@media only screen and (min-width: 1201px) and (max-width: 1365px){
 .autoria{
 	width: 100%;
 	height: 40px;
@@ -126,7 +130,6 @@ margin-left: 40px;
 .social{
 	width: 100%;
 	height: 40px;
-
     border-radius: 20px;
     display: flex;
 	align-items:center;
@@ -142,165 +145,47 @@ margin-left: 40px;
 
 }
 .menu a {
-color:black;
 padding: 10px;
 display: block;
-text-decoration: none;
-font-size: 20px;
+font-size: 21px;
 margin: 10px;
 margin-left: 50px;
-	width: 100%;
 }
 .direito img {
 	width: 800px;
 	height: 700px;
 }
+
+#menu{
+	display:block !important;
 }
-@media only screen and (max-width: 1200px){
+}
+@media only screen and (min-width: 1010px)and (max-width: 1200px){
 .direito img {
-	width: 600px;
-	height: 500px;
-	margin-top: 100px;
+	width: 680px;
+	height: 580px;
+	margin-top: 70px;
 }
 .menu a {
-color:black;
+
 padding: 5px;
-display: block;
 text-decoration: none;
-font-size: 20px;
-margin: 5px;
+font-size: 22px;
+margin: 8px;
 margin-left: 30px;
-	width: 100%;
-}
-}
-@media only screen and (min-width: 100px)and (max-width: 980px){
-	.menu {
-		text-align: center;
-		margin: 0px;
-	}
-	.menu a{
-		margin-left: 10px;
-		width: 100%;
-	}
-h1{
- font-size: 120px;
- font-family: arial;
-
- color: #000;
-}
-h3{
- font-size: 30px;
- font-family: arial;
-
- color: #696969;
- margin-top: -100px;
- 
- 
-}
-.name{
-	width: 100%;
-	display:block;
-	justify-content:center;
-	text-align: center;
-
-}
-.esquerdo{
-	height: 300px;
-	width: 100%;
-	
-}
-.direito{
-	display: flex;
-	width: 100%;
-	justify-content:Center;
-	align-items:center;	
-}
-.direito img{
-margin-left: 190px;
-}
-.autor{
-	
-	height: 80px;
-	width: 100%; 
-	display:block;
-	margin-top: 90px;
-
-}
-@media only screen and (max-width: 806px){
-	
-h1{
- font-size: 100px;
- font-family: arial;
-
- color: #000;
-}
-.direito img{
-margin-left: 130px;
-}
-}
-@media only screen and (min-width: 250px) and (max-width: 505px){
-	.menuresponsivo{
-		display: block;
-	}
-	
-.name {
-    height: 300px;
-	width: 100%;
-	text-align: center;
-
-}
-.menu ul {
-	display: none;
-float: left;
-}
-.menu a {
-color:black;
-padding: 10px;
-display: block;
-font-size: 20px;
-margin: 10px;
 width: 100%;
+}
+.social{
+	width: 100%;
+	height: 40px;
+    border-radius: 20px;
+    display: flex;
+	align-items:center;
+	justify-content:center;
+	position: absolute;
+	margin-top: 40px;
 
-}
-.menu li {
-list-style: none;
-display: block;
-background-color: #696969;
-text-align: left;
-margin-left: -20px;
 
-
-}
-h1{
- font-size: 80px;
- font-family: arial;
- margin-top: 10px;
- color: #000;
-}
-h3{
-	margin-top:-40px;
-	text-align: center;
-	margin-left: 25px;
-}
-}
-@media only screen and (min-width: 150px) and (max-width: 450px){
-	.direito img{
-margin-left: 60px;
-width: 300px;
-height: 200px;
-margin-top: 100px;
-}
-h3{
-	margin-top:-40px;
-
-	margin-left: 10px;
-}
-h1{
- font-size: 60px;
- font-family: arial;
- margin-top: 60px;
- color: #000;
- margin-left: 10px;
 }
 .autoria{
 	width: 100%;
@@ -308,36 +193,263 @@ h1{
 	display: flex;
 	align-items:center;
 	justify-content:center;
-	font-size: 14px;
+	font-size: 20px;
 	color:696969;
+	position: absolute;
 }
-.menu ul {
-	display: none;
-float: left;
+#menu{
+	display:block !important;
 }
-.menu a {
-color:black;
-padding: 10px;
-display: block;
-font-size: 20px;
-margin: 10px;
-width: 100%;
-
 }
-.menu li {
-list-style: none;
-display: block;
-background-color: #696969;
-text-align: left;
-margin-left: -20px;
 
-
+@media only screen and (min-width: 691px) and (max-width: 1009px){
+	section{
+		display: block;
+	}
+	.menu ul {
+	width: 100%;
+	margin-left: 20px;
+	}
+	.menu a{
+		width: 100%;
+		margin: 10px;
+	}
+h1{
+ font-size: 100px;
+ margin-top: 20px;
+}
+h3{
+ font-size: 30px;
+ margin-top: -100px; 
+}
+.name{
+	width: 100%;
+	display:block;
+	justify-content:center;
+	text-align: center;
+}
+.esquerdo{
+	height: 300px;
+	width: 100%;	
 }
 .direito{
 	display: flex;
 	width: 100%;
 	justify-content:Center;
 	align-items:center;	
-	margin-top: 10px;
+}
+.direito img{
+margin-left: 100px;
+width: 550px;
+height: 450px;
+}
+.autor{
+	
+	height: 90px;
+	width: 100%; 
+    
+}
+.autoria{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	font-size: 20px;
+	color:696969;
+    
+}
+.social{
+	width: 100%;
+	height: 40px;
+    border-radius: 20px;
+    display: flex;
+	align-items:center;
+	justify-content:center;
+	position: absolute;
+	margin-top: 40px;
+
+
+}
+#menu{
+	display:block !important;
+}
+}
+@media only screen and (min-width: 426px) and (max-width: 690px){
+#menu{
+	
+	padding: 0px;
+	margin-top: 0px;
+
+}
+.menuresponsivo{
+	display: block;
+}
+section{
+		display: block;
+	}
+	
+h1{
+ font-size: 100px;
+ margin-top: 60px;
+}
+h3{
+ font-size: 30px;
+ margin-top: -80px; 
+}
+.name{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	text-align: center;
+	height: 300px;
+	flex-direction:column;
+}
+.esquerdo{
+	height: 400px;
+	width: 100%;	
+}
+.direito{
+	display: flex;
+	width: 100%;
+	justify-content:Center;
+	align-items:center;	
+	height: 500px;
+	margin: 20px;
+}
+.direito img{
+margin-left: 100px;
+width: 550px;
+height: 450px;
+}
+.autor{
+	
+	height: 90px;
+	width: 100%; 
+    
+}
+.autoria{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	font-size: 20px;
+	color:696969;
+    
+}
+.social{
+	width: 100%;
+	height: 40px;
+    border-radius: 20px;
+    display: flex;
+	align-items:center;
+	justify-content:center;
+	position: absolute;
+	margin-top: 40px;
+
+
+}
+.menu li {
+	display: block;
+	background-color: #696969;
+    max-width: 300px;
+}
+.menu a {
+	margin: 0px;
+    padding: 20px;
+}
+.menu ul {
+position: absolute;
+margin-left: 20px;
+text-align: left;
+display: none;
+}
+
+}
+@media only screen and (min-width: 300px) and (max-width: 425px){
+	.menuresponsivo{
+	display: block;
+}
+section{
+		display: block;
+	}
+	
+h1{
+ font-size: 80px;
+ margin-top: 60px;
+}
+h3{
+ font-size: 20px;
+ margin-top: -50px; 
+}
+.name{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+align-items:center;
+	height: 200px;
+	flex-direction:column;
+}
+.esquerdo{
+	height: 300px;
+	width: 100%;	
+}
+.direito{
+	display: flex;
+	width: 100%;
+	justify-content:Center;
+	align-items:center;	
+	height: 500px;
+	margin: 20px;
+}
+.direito img{
+margin-left: 100px;
+width: 550px;
+height: 450px;
+}
+.autor{
+	
+	height: 130px;
+	width: 100%; 
+    
+}
+.autoria{
+	width: 100%;
+	height: 65px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	font-size: 15px;
+	color:696969;
+    
+}
+.social{
+	width: 100%;
+	height: 65px;
+    border-radius: 20px;
+    display: flex;
+	align-items:center;
+	justify-content:center;
+	position: absolute;
+	margin-top: 40px;
+	margin-left: -20px;
+
+
+}
+.menu li {
+    display: block;
+	background-color: #696969;
+    max-width: 300px;
+}
+.menu a {
+	margin: 0px;
+    padding: 20px;
+}
+.menu ul {
+position: absolute;
+display: none;
+margin-left: -20px;
+margin-top: -1px;
 }
 }
